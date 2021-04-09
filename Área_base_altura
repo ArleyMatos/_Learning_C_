@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	float altura, base, area;
+     printf ("Escreve a altura ae namoralzinha \n");
+      scanf ("%f", &altura);
+     
+	 printf ("Escreve a base ae namoralzinha \n");
+      scanf ("%f", &base);
+     area=(base*altura)/2;
+	 printf (" %.4f", area);
+    
+	return 0;
+	
+}
